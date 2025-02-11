@@ -1,12 +1,8 @@
 #include <stdio.h>
-
-char* welcome() {
-    float c = a*b;
-}
-
-int main() {
-    float a;
-    float b;
-    printf("%s", welcome());
-    return 0;
+int main () {
+    float a,b;
+    scanf("%f",&a);
+    scanf("%f",&b);
+    float result=a*b;
+    printf("Product");
 }
