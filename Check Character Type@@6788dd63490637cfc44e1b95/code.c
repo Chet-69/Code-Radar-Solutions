@@ -6,9 +6,11 @@ int main(){
     char lower=tolower(a);
     if(lower=='a' || lower=='e' || lower=='i' || lower=='o' || lower=='u') {
         printf("Vowel");
-    } else if(lower=='1' || lower=='2' || lower=='3' || lower=='4' || lower=='5' || lower=='6' || lower=='7' || lower=='8' || lower=='9' || lower=='0'){
+    } else if (a >= '0' && a <= '9')
+{
         printf("Digit");
-    } else if('a'<=lower<='z' &&(lower!='a' || lower!='e' || lower!='i' || lower!='o' || lower!='u') ){
+    }else if (lower >= 'a' && lower <= 'z')
+{
         printf("Consonant");
     } else{
         printf("Special Character");
