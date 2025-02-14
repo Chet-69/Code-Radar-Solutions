@@ -7,4 +7,5 @@ int main() {
     } else {
         print("%d",b);
     }
+    return 0;
 }
