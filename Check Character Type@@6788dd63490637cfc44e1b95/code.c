@@ -6,7 +6,7 @@ int main(){
     char lower=tolower(a);
     if(lower=='a' || lower=='e' || lower=='i' || lower=='o' || lower=='u') {
         printf("Vowel");
-    } else if(char=='1' || char=='2' || char=='3' || char=='4' || char=='5' || char=='6' || char=='7' || char=='8' || char=='9' || char=='0'){
+    } else if(lower=='1' || lower=='2' || lower=='3' || lower=='4' || lower=='5' || lower=='6' || lower=='7' || lower=='8' || lower=='9' || lower=='0'){
         printf("Digit");
     } else if('a'<=lower<='z' &&(lower=='a' || lower=='e' || lower=='i' || lower=='o' || lower=='u') ){
         printf("Consonant");
