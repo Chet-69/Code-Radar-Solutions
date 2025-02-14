@@ -14,7 +14,7 @@ int main() {
     if(isprime){
         print("Prime");
     } else{
-        print("Not Prime")
+        print("Not Prime");
     }
 }
 
